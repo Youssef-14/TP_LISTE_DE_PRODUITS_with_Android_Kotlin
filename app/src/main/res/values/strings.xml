@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">TP LISTE DE PRODUITS</string>
+    <string name="app_name">To Do List Kotlin</string>
+    <string name="entrer_le_prix_de_l_item">Entrer le prix de l\'item</string>
+    <string name="entrez_le_nom_de_l_item">Entrez le nom de l\'item</string>
+    <string name="disponible">Disponible</string>
+    <string name="undisponible">Undisponible</string>
+    <string name="item_image">Item_Image</string>
+    <string name="selectionner_une_image">Selectionner une image</string>
+    <string name="modifier">Modifier</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="button_de_configuration">Button de configuration</string>
+    <string name="selectionner_un_font_size">Selectionner un font size</string>
+    <string name="configuration">Configuration</string>
 </resources>

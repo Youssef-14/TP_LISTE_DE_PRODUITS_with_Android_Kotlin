@@ -1,0 +1,89 @@
+<!-- res/layout/activity_update.xml -->
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="12dp"
+tools:context=".activities.UpdateActivity">
+
+    <TextView
+        android:id="@+id/page_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/et_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/entrez_le_nom_de_l_item"
+        android:layout_marginBottom="16dp"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/entrer_le_prix_de_l_item"
+        android:layout_marginBottom="16dp"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:id="@+id/et_price"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrer le codebarre de l'item"
+        android:layout_marginBottom="16dp"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:id="@+id/et_codebarre"
+        android:autofillHints="" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_item_image"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/item_image" />
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/btn_select_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selectionner_une_image"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/bt_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/modifier"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ajouter"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>
